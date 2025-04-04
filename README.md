@@ -13,7 +13,7 @@ This project:
 
 ## Prerequisites
 
-- Terraform v1.0+
+- [Terraform v1.0+](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) - Installation guide
 - AWS account and credentials
 - SSH key pair in your AWS region
 
