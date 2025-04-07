@@ -14,6 +14,6 @@ module "Ec2_instance" {
   volume_type     = "gp3"                      # type of the root volume
   tag_name        = "MyInstance"               # name of the instance
   private_k       = "path/to/private/key.pem"  # path to the private key
-  user_data       = "${path.module}/../../user_data.sh"     # user data script for install custom software
+  user_data       = "${path.root}/user_data.sh"     # user data script for install custom software
 }
 
